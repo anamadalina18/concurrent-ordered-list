@@ -41,7 +41,9 @@ to reason about and correct for the tests, but it does not scale write throughpu
 ## Performance
 
 Measured locally on an **Intel Core i5-12450H (8 cores / 12 threads), 16 GB RAM, Windows 11**,
-`g++ 16.2 -O3`, single run, synthetic data. Indicative numbers, not a controlled suite.
+`g++ 16.2 -O3`, single run, synthetic data. The course grades these projects through its own CI
+benchmark; these figures come from a separate local run on this machine, not from that harness.
+Indicative numbers, not a controlled suite.
 
 Setup: 10,000 random keys, 200,000 lookups.
 
